@@ -10,7 +10,7 @@ describe('ZipList', function () {
       chai.expect(zipList(l,o)).to.be.an('array');
     });
     describe('zipListTheSimpleWay()', function () {
-    it('should return an array containing both variables for zipList', function () {
+    it('should return an array containing both variables for zipListTheSimpleWay', function () {
       chai.expect(zipListTheSimpleWay(l,o)).to.equal(["a", 1, "b", 2, "c", 3]);
       chai.expect(zipListTheSimpleWay(l,o)).to.be.an('array');
     });
